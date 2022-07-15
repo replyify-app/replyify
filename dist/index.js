@@ -17,7 +17,7 @@
   var environment = (Object.prototype.toString.call(typeof process !== 'undefined' ? process : 0) === '[object process]') ? 'node' : 'browser';
 
   var SOURCE = 'library';
-  var VERSION = '0.0.4';
+  var VERSION = '0.0.5';
 
   function Replyify(options) {
     var self = this;

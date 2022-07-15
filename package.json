@@ -1,7 +1,7 @@
 {
   "name": "replyify",
-  "version": "0.0.4",
-  "description": "Create custom text snippets that you can access on all of your devices",
+  "version": "0.0.5",
+  "description": "A free Gmail auto-reply app with follow-up emails",
   "main": "./dist/index.js",
   "scripts": {
     "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
@@ -16,8 +16,8 @@
   },
   "keywords": [
     "replyify",
-    "snippet manager",
-    "text expander",
+    "gmail auto-reply",
+    "gmail follow-up emails",
     "nodejs",
     "front end"
   ],
