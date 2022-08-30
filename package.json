@@ -29,6 +29,6 @@
   "homepage": "https://replyify.app",
   "devDependencies": {
     "mocha": "^8.4.0",
-    "prepare-package": "^0.0.12"
+    "prepare-package": "^0.0.13"
   }
 }
