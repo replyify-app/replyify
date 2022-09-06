@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
-    "prepare": "node -e 'require(`prepare-package`)'"
+    "prepare": "node -e 'require(`prepare-package`)()'"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -29,6 +29,6 @@
   "homepage": "https://replyify.app",
   "devDependencies": {
     "mocha": "^8.4.0",
-    "prepare-package": "^0.0.13"
+    "prepare-package": "^0.0.16"
   }
 }
