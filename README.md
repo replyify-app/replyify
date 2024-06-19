@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://cdn.itwcreativeworks.com/assets/replyify/images/logo/replyify-brandmark-black-x.svg">
+  <a href="https://replyify.app">
     <img src="https://cdn.itwcreativeworks.com/assets/replyify/images/logo/replyify-brandmark-black-x.svg" width="100px">
   </a>
 </p>
@@ -24,17 +24,17 @@
   <strong>replyify</strong> is the official npm module of <a href="https://replyify.app">Replyify</a>, a free Gmail auto-reply app with follow-up emails!
 </p>
 
-## Replyify Works in Node AND browser environments
+## 🌐 Replyify Works in Node AND browser environments
 Yes, this module works in both Node and browser environments, including compatibility with [Webpack](https://www.npmjs.com/package/webpack) and [Browserify](https://www.npmjs.com/package/browserify)!
 
-## Features
+## 🦄 Features
 * Getting proxy lists
 
-### Getting an API key
-You can use so much of `replyify` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Replyify account](https://replyify.app/authentication/signup).
+### 🔑 Getting an API key
+You can use so much of `replyify` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Replyify account](https://replyify.app/signup).
 
-## Install Replyify
-### Install via npm
+## 📦 Install Replyify
+### Option 1: Install via npm
 Install with npm if you plan to use `replyify` in a Node project or in the browser.
 ```shell
 npm install replyify
@@ -48,7 +48,7 @@ const replyify = new (require('replyify'))({
 });
 ```
 
-### Install via CDN
+### Option 2: Install via CDN
 Install with CDN if you plan to use Replyify only in a browser environment.
 ```html
 <script src="https://cdn.jsdelivr.net/npm/replyify@latest/dist/index.min.js"></script>
@@ -60,29 +60,29 @@ Install with CDN if you plan to use Replyify only in a browser environment.
 </script>
 ```
 
-### Use without installation
+### Option 3: Use without installation
 You can use `replyify` in a variety of ways that require no installation, such as `curl` in terminal/shell. See the **Use without installation** section below.
 
-## Using Replyify
+## ⚡️ Using Replyify
 After you have followed the install step, you can start using `replyify` to setup automatic Gmail replies and follow-up emails!
 
 For a more in-depth documentation of this library and the Replyify service, please visit the official Replyify website.
 
-## Use without installation
+## 🔧 Use without installation
 ### Use Replyify with `curl`
 ```shell
 # Standard
 curl -X POST https://api.replyify.app
 ```
 
-## What Can Replyify do?
+## 📝 What Can Replyify do?
 Replyify is a [free Gmail auto-reply](https://replyify.app) app with follow-up emails!
 
-## Final Words
+## 🗨️ Final Words
 If you are still having difficulty, we would love for you to post
 a question to [the Replyify issues page](https://github.com/replyify/replyify/issues). It is much easier to answer questions that include your code and relevant files! So if you can provide them, we'd be extremely grateful (and more likely to help you find the answer!)
 
-## Projects Using this Library
+## 📚 Projects Using this Library
 * coming soon!
 
 Ask us to have your project listed! :)
